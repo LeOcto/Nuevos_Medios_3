@@ -117,7 +117,7 @@ main {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: flex;
     flex-direction: row;
@@ -132,6 +132,7 @@ footer div a {
     border: 1px solid rgb(245, 245, 245);
     box-shadow: 3px 3px 6px rgba(100, 100, 100, 0.25);
     padding: 0.25rem 0.5rem;
+
 }
 
 footer div#next a{
@@ -141,9 +142,16 @@ footer div#next a{
     background-position: 90% center;
 }
 
-footer div#back a{
+footer div#Volver a{
     padding-left:1.75rem;
     background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/></svg>');
     background-repeat:no-repeat;
     background-position: 10% center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
